@@ -13,6 +13,10 @@ SRC_URI = "http://download.ceph.com/tarballs/ceph-${PV}.tar.gz \
            file://0001-zstd-fix-error-for-cross-compile.patch \
            file://0001-ceph-add-pybind-support-in-OE.patch \
            file://0001-ceph-detect-init-correct-the-installation-for-OE.patch \
+           file://CVE-2018-14662.patch \
+           file://CVE-2018-16889.patch \
+           file://CVE-2018-16846.patch \
+           file://CVE-2018-16846-2.patch \
            file://ceph.conf \
 "
 SRC_URI[md5sum] = "ce118be451dcb6b89e9e0a45057827dd"
