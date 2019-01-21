@@ -28,6 +28,7 @@ SRC_URI = "\
 	file://docker.init \
 	file://hi.Dockerfile \
         file://0001-libnetwork-use-GO-instead-of-go.patch \
+        file://CVE-2018-20699.patch \
 	"
 
 # Apache-2.0 for docker
