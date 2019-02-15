@@ -7,6 +7,7 @@ SRC_URI = "git://github.com/opencontainers/runc;nobranch=1;name=runc-docker \
            file://0001-runc-Add-console-socket-dev-null.patch \
            file://0001-build-drop-recvtty-and-use-GOBUILDFLAGS.patch \
            file://0001-runc-docker-SIGUSR1-daemonize.patch \
+           file://CVE-2019-5736.patch \
           "
 
 RUNC_VERSION = "1.0.0-rc5"
