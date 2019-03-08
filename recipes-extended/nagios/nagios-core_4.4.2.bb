@@ -18,6 +18,7 @@ SRC_URI = "http://prdownloads.sourceforge.net/sourceforge/${SRCNAME}/${SRCNAME}-
            file://volatiles \
            file://nagios-core.service \
            file://nagios-core-systemd-volatile.conf \
+           file://CVE-2018-18245.patch \
            "
 
 SRC_URI[md5sum] = "7a9736281d4e2ebe4f4569a782f733c5"
