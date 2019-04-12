@@ -17,6 +17,7 @@ SRC_URI = "http://download.ceph.com/tarballs/ceph-${PV}.tar.gz \
            file://CVE-2018-16889.patch \
            file://CVE-2018-16846.patch \
            file://CVE-2018-16846-2.patch \
+           file://CVE-2019-3821.patch \
            file://ceph.conf \
 "
 SRC_URI[md5sum] = "ce118be451dcb6b89e9e0a45057827dd"
