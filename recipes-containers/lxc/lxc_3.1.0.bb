@@ -15,7 +15,6 @@ RDEPENDS_${PN} = " \
 		perl-module-strict \
 		perl-module-getopt-long \
 		perl-module-vars \
-		perl-module-warnings-register \
 		perl-module-exporter \
 		perl-module-constant \
 		perl-module-overload \
@@ -48,8 +47,8 @@ SRC_URI = "http://linuxcontainers.org/downloads/${BPN}-${PV}.tar.gz \
 	file://lxc-net \
 	"
 
-SRC_URI[md5sum] = "72e2f1e718c7ddf3ffa9b18ec0328d8f"
-SRC_URI[sha256sum] = "6ab7117b17066220da450c55ed77953998cf2336d415143b879554364af12f5c"
+SRC_URI[md5sum] = "e83e302a801494276f3772e687a3b8b0"
+SRC_URI[sha256sum] = "4d8772c25baeaea2c37a954902b88c05d1454c91c887cb6a0997258cfac3fdc5"
 
 S = "${WORKDIR}/${BPN}-${PV}"
 
