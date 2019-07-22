@@ -18,9 +18,9 @@ DESCRIPTION = "Linux container runtime \
  subtle and/or glaring issues. \
  "
 
-SRCREV_docker = "489b8eda6674523df8b82a210399b7d2954427d0"
-SRCREV_libnetwork = "6da50d1978302f04c3e2089e29112ea24812f05b"
-SRCREV_cli = "51668a30f26250ccfce31bcc13d9334eaafabe36"
+SRCREV_docker = "667e800b2cf920c6d3d7c32fdbc5811934d99769"
+SRCREV_libnetwork = "4725f2163fb214a6312f3beae5991f838ec36326"
+SRCREV_cli = "7ea48a16e3eac8772f7e10bbf404ee6a2fd909ac"
 SRC_URI = "\
 	git://github.com/moby/moby.git;nobranch=1;name=docker \
 	git://github.com/docker/libnetwork.git;branch=bump_18.09;name=libnetwork;destsuffix=git/libnetwork \
@@ -37,7 +37,7 @@ GO_IMPORT = "import"
 
 S = "${WORKDIR}/git"
 
-DOCKER_VERSION = "18.09.0"
+DOCKER_VERSION = "18.09.2"
 PV = "${DOCKER_VERSION}+git${SRCREV_docker}"
 
 DEPENDS = " \
